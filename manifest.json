@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Bubble Debug Mode Toggle",
+    "version": "1.0",
+    "description": "Toggle debug_mode=true for Bubble editor apps. Created by a freelance no-code developer passionate about Bubble and automation.",
+    "permissions": ["activeTab", "scripting", "notifications"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": [
+      "*://*.bubbleapps.io/*"
+    ],
+    "action": {
+      "default_icon": {
+        "100": "disabled-debug.png"
+      }
+    },
+    "homepage_url": "https://www.linkedin.com/in/baloshi69/",
+    "author": "Nasir Nawaz"
+  }
+  
