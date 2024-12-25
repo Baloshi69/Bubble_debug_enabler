@@ -3,7 +3,7 @@
     "name": "Bubble Debug Mode Toggle",
     "version": "1.0",
     "description": "Toggle debug_mode=true for Bubble editor apps. Created by a freelance no-code developer passionate about Bubble and automation.",
-    "permissions": ["activeTab", "scripting"],
+    "permissions": ["activeTab", "scripting", "notifications"],
     "background": {
       "service_worker": "background.js"
     },
